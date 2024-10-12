@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us page</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body class= "Contact">
+    <script src="index.js"></script>
+    
+    <!-- For navigation -->
+    <nav class="desktop">
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "Websites.html">Websites</a></li>
+            <li><a href = "Description.html">Description</a></li>
+            <li><a href = "Aboutus.html">About us</a></li>
+            <li><a href = "Contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- For Mobile-tablet navigation -->
+    <nav class="mobile-tablet">
+        <a class="hamburger" onclick = "hamburger()"></a>
+            <div>&#9776;</div>
+        </a>
+        <div id="menu-links">
+            <p id="text-menu" style="font-family: 'Alfa Slab One',sans-serif">MENU</p>
+            <a href = "Home.html"><img id="nav-icons" src="https://www.svgrepo.com/show/96177/home-button.svg">Home</a>
+            <img id="line" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/800px-Black_colour.jpg" width="250px" height="3px"/>
+            <a href = "Websites.html"><img id="nav-icons" src="https://vectorified.com/images/website-logo-icon-16.png">Websites</a>
+            <img id="line" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/800px-Black_colour.jpg" width="250px" height="3px"/>
+            <a href = "Description.html"><img id="nav-icons" src="https://cdn-icons-png.flaticon.com/512/1642/1642055.png">Description</a>
+            <img id="line" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/800px-Black_colour.jpg" width="250px" height="3px"/>
+            <a href = "Aboutus.html"><img id="nav-icons" src="https://cdn-icons-png.flaticon.com/512/15/15659.png">About us</a>
+            <img id="line" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/800px-Black_colour.jpg" width="250px" height="3px"/>
+            <a href = "Contactus.html"><img id="nav-icons" src="https://icon-library.com/images/contact-icon-png/contact-icon-png-1.jpg">Contact Us</a>
+            <img id="line" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/800px-Black_colour.jpg" width="250px" height="3px"/>
+        </div>
+    </nav>
+
+    <div class="center">
+        <p style="font-family: 'Alfa Slab One',sans-serif"><strong>RECO<span class="web">WEB</span>DATION</strong></p>
+    </div>
+
+    <section id="GIT">
+        <div id="form">
+            <h1 style="font-family: 'Alfa Slab One',sans-serif">GET IN TOUCH</h1>
+            <h2 style="font-family: 'Gowun Batang', sans-serif;">If you have any inquiries just let us know</h2>
+    
+            <!-- First Name -->
+            <label style="font-family: 'Alfa Slab One',sans-serif" for="first-name">Tell us your first name</label>
+            <input type="text" id="first-name" name="first-name" maxlength="40" placeholder="First name" required>
+    
+            <div id="space"></div>
+            <!-- Last Name -->
+            <label style="font-family: 'Alfa Slab One',sans-serif" for="last-name">Tell us your last name</label>
+            <input type="text" id="last-name" name="last-name" maxlength="40" placeholder="Last name" required>
+
+            <div id="space"></div>
+            <!-- Email -->
+            <label style="font-family: 'Alfa Slab One',sans-serif" for="email">Email</label>
+            <input type="email" id="email" name="email" maxlength="40" placeholder="example@gmail.com" required>
+
+            <div id="space"></div>
+            <!-- Message -->
+            <label style="font-family: 'Alfa Slab One',sans-serif" for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Concerns or Suggestions" required></textarea>
+
+            <div id="space"></div>
+            <!-- Submit Button -->
+            <button style="font-family: 'Alfa Slab One',sans-serif" type="submit">SUBMIT</button>
+        </div>
+    </section>
+    <!-- Padding -->
+    <div id="space"></div>
+</body>
+<!-- For contacts -->
+<footer class="footer-home">
+    <h1 id="contact">Contact Us</h1>
+    <div id="contacts">
+        <p>
+            <img id="email"  src="https://shorturl.at/tqBeE"><a href="mailto:krisdane1234@gmail.com" target="_blank">krisdane1234@gmail.com</a>
+            <img id="github" src="https://shorturl.at/DKXo5"><a href="https://github.com/KrisDaneM" target="_blank">KrisDaneM</a>
+            <img id="phone" src="https://shorturl.at/h5R2n"><a href="tel:+639954834034" target="_blank">09954834034</a>
+        </p>
+        
+        <p>
+            <img id="facebook" src="https://logodix.com/logo/65532.png"><a href="https://www.facebook.com/kris.dane.98" target="_blank" alt="Facebook Account">Kris Dane</a>
+            <img id="instagram" src="https://shorturl.at/oK4n3"><a href="https://www.instagram.com/_krisdane/" target="_blank" alt="Instagram Account">_krisdane</a>
+            <img id="linkedin" src="https://shorturl.at/TrnFJ"><a href="https://www.linkedin.com/in/kris-dane-450171270/" target="_blank" alt="Linkedin Account">Kris Dane</a>
+        </p>
+    </div>
+    <div><p id="copyright"><em>&copy; Copyright 2024. All rights reserved. Created by Kris Dane Madlambayan</em></p></div>
+</footer>
+
+<!-- Footer for mobile -->
+<footer class="footer-home-mobile">
+    <h1 id="contact">Contact Us</h1>
+    <div id="contacts">
+        <p>
+            <img id="email"  src="https://shorturl.at/tqBeE"><a href="mailto:krisdane1234@gmail.com" target="_blank">krisdane1234@gmail.com</a>
+            <img id="github" src="https://shorturl.at/DKXo5"><a href="https://github.com/KrisDaneM" target="_blank">KrisDaneM</a>
+            <img id="phone" src="https://shorturl.at/h5R2n"><a href="tel:+639954834034" target="_blank">09954834034</a>
+            <img id="facebook" src="https://logodix.com/logo/65532.png"><a href="https://www.facebook.com/kris.dane.98" target="_blank" alt="Facebook Account">Kris Dane</a>
+            <img id="instagram" src="https://shorturl.at/oK4n3"><a href="https://www.instagram.com/_krisdane/" target="_blank" alt="Instagram Account">_krisdane</a>
+            <img id="linkedin" src="https://shorturl.at/TrnFJ"><a href="https://www.linkedin.com/in/kris-dane-450171270/" target="_blank" alt="Linkedin Account">Kris Dane</a>
+        </p>
+    </div>
+    <div><p id="copyright"><em>&copy; Copyright 2024. All rights reserved. Created by Kris Dane Madlambayan</em></p></div>
+</footer>
+</html>
+

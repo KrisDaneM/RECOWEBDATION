@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="mobile-bg">
+    <script src="index.js"></script>
+    
+    <!-- For navigation -->
+    <nav class="desktop">
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "Websites.html">Websites</a></li>
+            <li><a href = "Description.html">Description</a></li>
+            <li><a href = "Aboutus.html">About us</a></li>
+            <li><a href = "Contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- For Mobile-tablet navigation -->
+    <nav class="mobile-tablet">
+        <a class="hamburger" onclick = "hamburger()"></a>
+            <div>&#9776;</div>
+        </a>
+        <div id="menu-links">
+            <p id="text-menu" style="font-family: 'Alfa Slab One',sans-serif">MENU</p>
+            <a href = "Home.html"><img id="nav-icons" src="https://www.svgrepo.com/show/96177/home-button.svg">Home</a>
+            <img id="line" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/800px-Black_colour.jpg" width="250px" height="3px"/>
+            <a href = "Websites.html"><img id="nav-icons" src="https://vectorified.com/images/website-logo-icon-16.png">Websites</a>
+            <img id="line" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/800px-Black_colour.jpg" width="250px" height="3px"/>
+            <a href = "Description.html"><img id="nav-icons" src="https://cdn-icons-png.flaticon.com/512/1642/1642055.png">Description</a>
+            <img id="line" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/800px-Black_colour.jpg" width="250px" height="3px"/>
+            <a href = "Aboutus.html"><img id="nav-icons" src="https://cdn-icons-png.flaticon.com/512/15/15659.png">About us</a>
+            <img id="line" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/800px-Black_colour.jpg" width="250px" height="3px"/>
+            <a href = "Contactus.html"><img id="nav-icons" src="https://icon-library.com/images/contact-icon-png/contact-icon-png-1.jpg">Contact Us</a>
+            <img id="line" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Black_colour.jpg/800px-Black_colour.jpg" width="250px" height="3px"/>
+        </div>
+    </nav>
+
+    <h1 id="Desc-web" style="font-family: 'Alfa Slab One',sans-serif">Descriptions of Websites</h1>
+
+    <table>
+        <tr>
+            <th>WEBSITES</th>
+            <th>DESCRIPTION</th>
+        </tr>
+        <tr>
+            <td id="web-title"><a href="https://www.freecodecamp.org/learn" target="_blank">Freecodecamp</a></td>
+            <td id="web-desc">FreeCodeCamp offers a free, interactive platform for learning web development, data analysis, and algorithms with options to obtain certifications in different IT areas.</td>
+        </tr>
+        <tr>
+            <td id="web-title"><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></td>
+            <td id="web-desc">W3Schools is a popular website for learning web development with tutorials and references for learning HTML, CSS, JavaScript, SQL, PHP, and many more languages.</td>
+        </tr>
+        <tr>
+            <td id="web-title"><a href="https://github.com/" target="_blank">GitHub</a></td>
+            <td id="web-desc">GitHub is a platform for hosting and collaborating on software projects using Git. It provides version control, team collaboration, and tools for open-source software.</td>
+        </tr>
+        <tr>
+            <td id="web-title"><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a></td>
+            <td id="web-desc">Khan Academy offers free online courses, lessons, and practice in various subjects, including computer science, web development, and coding.</td>
+        </tr>
+        <tr>
+            <td id="web-title"><a href="https://www.codecademy.com/" target="_blank">Code Academy</a></td>
+            <td id="web-desc">Code Academy offers free and paid interactive coding classes in various programming languages like JavaScript, Python, and more, helping learners build real-world projects.</td>
+        </tr>
+        <tr>
+            <td id="web-title"><a href="https://www.saylor.org/" target="_blank">Saylor org</a></td>
+            <td id="web-desc">Saylor org provides free, university-level courses in a variety of fields from web development to liberal arts, offering the option to earn college credits.</td>
+        </tr>
+        <tr>
+            <td id="web-title"><a href="https://www.sololearn.com/en/" target="_blank">Sololearn</a></td>
+            <td id="web-desc">SoloLearn is an online platform offering a wide range of free programming courses, allowing users to code and compile in real time through its web and mobile app.</td>
+        </tr>
+        <tr>
+            <td id="web-title"><a href="https://dash.generalassemb.ly/" target="_blank">General Assembly Dash</a></td>
+            <td id="web-desc">Dash provides free interactive courses in front-end web development, including HTML, CSS, and JavaScript, designed for beginners to build their skills step by step.</td>
+        </tr>
+        <tr>
+            <td id="web-title"><a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a></td>
+            <td id="web-desc">The Odin Project offers free, comprehensive, and self-paced coding tutorials for learning HTML, CSS, JavaScript, Ruby on Rails, and more, helping learners build a portfolio of projects.</td>
+        </tr>
+        <tr>
+            <td id="web-title"><a href="https://exercism.org/" target="_blank">Exercism</a></td>
+            <td id="web-desc">Exercism provides free coding exercises and mentorship for various programming languages, allowing learners to practice coding skills and receive feedback from a community of developers.</td>
+        </tr>
+    </table>
+
+</body>
+
+<!-- Footer mobile and tablet -->
+<!-- For contacts -->
+<footer class="footer-home">
+    <h1 id="contact">Contact Us</h1>
+    <div id="contacts">
+        <p>
+            <img id="email"  src="https://shorturl.at/tqBeE"><a href="mailto:krisdane1234@gmail.com" target="_blank">krisdane1234@gmail.com</a>
+            <img id="github" src="https://shorturl.at/DKXo5"><a href="https://github.com/KrisDaneM" target="_blank">KrisDaneM</a>
+            <img id="phone" src="https://shorturl.at/h5R2n"><a href="tel:+639954834034" target="_blank">09954834034</a>
+        </p>
+        
+        <p>
+            <img id="facebook" src="https://logodix.com/logo/65532.png"><a href="https://www.facebook.com/kris.dane.98" target="_blank" alt="Facebook Account">Kris Dane</a>
+            <img id="instagram" src="https://shorturl.at/oK4n3"><a href="https://www.instagram.com/_krisdane/" target="_blank" alt="Instagram Account">_krisdane</a>
+            <img id="linkedin" src="https://shorturl.at/TrnFJ"><a href="https://www.linkedin.com/in/kris-dane-450171270/" target="_blank" alt="Linkedin Account">Kris Dane</a>
+        </p>
+    </div>
+    <div><p id="copyright"><em>&copy; Copyright 2024. All rights reserved. Created by Kris Dane Madlambayan</em></p></div>
+</footer>
+
+<!-- Footer for mobile -->
+<footer class="footer-home-mobile">
+    <h1 id="contact">Contact Us</h1>
+    <div id="contacts">
+        <p>
+            <img id="email"  src="https://shorturl.at/tqBeE"><a href="mailto:krisdane1234@gmail.com" target="_blank">krisdane1234@gmail.com</a>
+            <img id="github" src="https://shorturl.at/DKXo5"><a href="https://github.com/KrisDaneM" target="_blank">KrisDaneM</a>
+            <img id="phone" src="https://shorturl.at/h5R2n"><a href="tel:+639954834034" target="_blank">09954834034</a>
+            <img id="facebook" src="https://logodix.com/logo/65532.png"><a href="https://www.facebook.com/kris.dane.98" target="_blank" alt="Facebook Account">Kris Dane</a>
+            <img id="instagram" src="https://shorturl.at/oK4n3"><a href="https://www.instagram.com/_krisdane/" target="_blank" alt="Instagram Account">_krisdane</a>
+            <img id="linkedin" src="https://shorturl.at/TrnFJ"><a href="https://www.linkedin.com/in/kris-dane-450171270/" target="_blank" alt="Linkedin Account">Kris Dane</a>
+        </p>
+    </div>
+    <div><p id="copyright"><em>&copy; Copyright 2024. All rights reserved. Created by Kris Dane Madlambayan</em></p></div>
+</footer>
+</html>

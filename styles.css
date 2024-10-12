@@ -1,0 +1,1452 @@
+
+            /* Import font style */
+            @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Protest+Guerrilla&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap'); /*Gowun Batang*/
+    
+                
+
+            .image-box a{
+                text-decoration: none;
+            }
+            .image-box {
+                position: relative;
+            }
+            
+            .image-box img {
+                width: 100%;
+                display: block;
+                transition: transform 0.3s ease;
+            }
+            
+            .image-box:hover img {
+                transform: scale(1.1);
+            }
+            
+            #title {
+                text-align: center;
+                transition: color 0.3s ease, transform 0.3s ease;
+                margin-top: 10px;
+                font-size: 1.5em;
+            }
+            
+              /* Hover Effect for Title */
+            .image-box:hover #title {
+                color: #00ff37;
+                transform: translateY(-5px);
+            }
+
+
+            @media only screen and (min-width: 1200px){
+
+            .Home{
+                background-image: url(https://rb.gy/lqfv2x);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+                margin: 0 1px 0 1px;
+                padding: 0px;
+            }
+    
+            body{
+                background-color: burlywood;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, wheat,  tan, sandybrown, saddlebrown);
+                background-size: 300% 100%;
+                animation: moveGradient 5s infinite linear;
+            }
+    
+            @keyframes moveGradient {
+                0% {
+                background-position: 0% 50%;
+                }
+                100% {
+                background-position: 100% 50%;
+                }
+            }
+    
+            .Contact{
+                background-image: url(https://wallpapercave.com/wp/wp6658497.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+                margin: 0 1px 0 1px;
+                padding: 0px;
+            }
+            
+    
+                /* STYLE FOR NAV */
+                nav.desktop {
+                    display: flex;
+                    justify-content: center;
+                    padding: 15px 0;
+                }
+                
+                nav.desktop ul {
+                    list-style-type: none;
+                    display: flex;
+                    gap: 50px;
+                }
+                
+                nav.desktop ul li {
+                    display: inline;
+                }
+                
+                nav.desktop ul li a {
+                    text-decoration: none;
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: black;
+                    padding: 10px 20px;
+                    transition: color 0.3s ease;
+                }
+                
+                nav.desktop ul li a:hover {
+                    color: #ffffff;
+                    background: linear-gradient(to bottom, burlywood 5% , saddlebrown 44%);
+                    border-radius: 50% ;
+                }
+                
+    
+            /* STYLE FOR div */
+            .web{
+                font-size: 160px;
+            }
+            
+            div p strong{
+                font-size: 100px;
+            }
+    
+            p{
+                font-size: 110px;
+            }
+    
+            #click{
+                font-size: 40px;
+            }
+    
+            /* for centering the text */
+            .center{
+                text-align: center;
+            }
+            
+    
+            /*Style for footer for all pages*/
+            
+            footer.footer-home{
+                background: url("https://wallpaperaccess.com/full/1151572.jpg");
+                position: absolute;
+                left: 0;
+                margin-top: 0px;
+                width: 97.55vw;
+                padding: 0 9px 20px;
+            }
+            footer h1#contact{
+                color: rgb(0, 0, 0);
+                text-align: center;
+                
+            }
+            footer.footer-about{
+                background: url("https://wallpaperaccess.com/full/1151572.jpg");
+                position: absolute;
+                left: 0;
+                margin-top: 0px;
+                width: 98.45vw;
+                padding: 0 9px 20px;
+            }
+
+            footer.footer-desc{
+                background: url("https://wallpaperaccess.com/full/1151572.jpg");
+                position: absolute;
+                left: 0;
+                margin-top: 0px;
+                width: 97.45vw;
+                padding: 0 9px 20px;
+            }
+            footer.footer-contact{
+                background: url("https://wallpaperaccess.com/full/1151572.jpg");
+                position: absolute;
+                left: 0;
+                margin-top: 0px;
+                width: 98.65vw;
+                padding: 0 9px 20px;
+            }
+    
+            footer.footer-websites{
+                background: url("https://wallpaperaccess.com/full/1151572.jpg");
+                position: absolute;
+                left: 0;
+                margin-top: 0px;
+                width: 98.90vw;
+                padding: 0px 9px 20px;
+            }
+    
+            footer p{
+                font-size: 1.5em;
+            }
+    
+            footer div p img#facebook{
+                padding-left: 30px;
+            }
+            footer div p img#email{
+                padding-left: 30px;
+            }
+            footer div p img#github{
+                padding-left: 280px;
+            }
+            footer div p img#phone{
+                padding-left: 360px;
+            }
+            footer div p img#instagram{
+                padding-left: 440px;
+            }
+            footer div p img#linkedin{
+                padding-left: 380px;
+            }
+            footer div p a{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+            footer div p a:hover{
+                animation: moveGradient 5s infinite linear;
+                background: linear-gradient(90deg, #000000, #b7c0c8, #a1c018, #dbfd00);
+                background-size: 300%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: background-position 1s ease;
+            }
+    
+            @keyframes moveGradient {
+                0% {
+                background-position: 0% 50%;
+                }
+                100% {
+                background-position: 100% 50%;
+                }
+            }
+    
+            footer div p#copyright{
+                text-align: center;
+            }
+    
+            /* for image icons */
+            img {
+                width: 30px;
+                height: 22px;
+            }
+        
+    
+    
+            
+            /* ABOUT US PAGE */
+            div h1{
+                text-align: center;
+                font-size: 3em;
+            }
+            div p#head{
+                text-align: left;
+                font-size: 3em;
+                padding-top: 70px;
+                margin: 0;
+            }
+            div p#body{
+                text-align: left;
+                font-size: 2em;
+                padding-right: 10px;
+                margin: 0;
+                color: white;
+                font-weight: bold;
+            }
+
+            /* YOUTUBE VIDEO STYLE */
+            .youtube-video-mobile{
+                display: none;
+            }
+            .youtube-video{
+                text-align: center;
+            }
+            div.youtube-video p{
+                font-size: 1.5em;
+            }
+            div.youtube-video iframe{
+                border: 6px solid black;
+            }
+            div.youtube-video iframe:hover{
+                border: 6px solid red;
+                border-radius: 5%;
+            }
+    
+            /* DESCRIPTION PAGE */
+            /*Table*/
+        
+            table {
+                width: 80%;
+                margin: 20px auto;
+                border-collapse: collapse;
+                border: 2px solid #3c2213;
+            }
+            th, td {
+                border: 2px solid #3c2213;
+                padding: 12px;
+                text-align: left;
+            }
+            th {
+                text-align: center;
+                background-color: #ccc;
+            }
+            td#web-title {
+                font-weight: bold;
+                text-align: center;
+                background-color: #f5f5dc;
+                text-decoration: none;
+            }
+            td#web-title a {
+                color: #000000;
+            }
+            td#web-title a:hover{
+                animation: moveGradient 5s infinite linear;
+                background: linear-gradient(90deg, #000000, #b7c0c8, #a1c018, #dbfd00);
+                background-size: 300%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: background-position 1s ease;
+    
+            }
+
+        td#web-desc {
+            background-color: #ffffff;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.2em;
+        }
+        .footer a {
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        h1#Desc-web{
+            text-align: center;
+            font-size: 3em;
+        }
+    
+        /* CONTACT US PAGE */
+        div#space{
+            padding: 10px;
+        }
+
+        /* Styling for required fields that are invalid */
+    input:invalid, textarea:invalid {
+        border-color: saddlebrown;
+        background-color: #ffe6e6;
+    }
+
+        /* Styling for fields when they are valid */
+    input:valid, textarea:valid {
+        border-color: green;
+        background-color: #e6ffe6;
+    }
+    input#first-name{
+        width: 400px;
+        height: 20px;
+        
+    }
+    input#last-name{
+        width: 400px;
+        height: 20px;
+    }
+    input#email{
+        width: 400px;
+        height: 20px;
+    }
+
+    /* Additional focus styles */
+    input:focus, textarea:focus {
+        outline: none;
+        border-color: blue;
+        background-color: #f0f8ff;
+    }
+
+        section#GIT {
+            display: flex;               /* Enable Flexbox */
+            flex-direction: column;      /* Align elements vertically */
+            justify-content: center;     /* Center vertically */
+            align-items: center;         /* Center horizontally */
+            text-align: center;
+            background-color: dimgrey;
+            border-radius: 10%;
+            max-width: 800px;
+            height: 30vh;                /* Adjust the height to fit the section properly */
+            margin: auto;                /* Center the section horizontally */
+            padding-top: 200px;
+            padding-bottom: 300px;
+        }
+        
+        label {
+            font-size: 1.2em;            /* Slightly larger label text */
+            color: white;                /* White color for readability */
+            margin-bottom: 5px;
+            display: block;
+        }
+        
+        /* Submit Button Styling */
+        button[type="submit"] {
+            background-color: #ffffff;   /* Green background */
+            color: saddlebrown;                /* White text */
+            padding: 12px 20px;          /* Padding around the text */
+            border: none;                /* Remove default border */
+            border-radius: 8px;          /* Rounded corners for modern look */
+            cursor: pointer;             /* Pointer cursor on hover */
+            font-size: 1.2em;            /* Increase font size */
+            width: 80%;                  /* Full-width button matching inputs */
+            margin-top: 15px;
+            max-width: 400px;
+        }
+        textarea{
+            resize: none;
+            width: 600px;
+            height: 100px;
+        }
+        
+        
+        button[type="submit"]:hover {
+            background-color: burlywood;   /* Darker green on hover */
+        }
+
+
+        /* Add some extra spacing for the form section */
+        #form {
+            margin-top: 30px;
+        }
+
+        div#form {
+            text-align: center;
+            font-size: 1em;
+            color: white;
+        }
+
+        /* WEBSITE PAGE */
+        table.transparent-mobile{
+            display: none;
+        }
+        footer div p img#facebook-web{
+            padding-left: 30px;
+        }
+
+        footer div p img#email-web{
+            padding-left: 30px;
+        }
+        footer div p img#github-web{
+            padding-left: 250px;
+        }
+        footer div p img#phone-web{
+            padding-left: 400px;
+        }
+
+        footer div p img#instagram-web{
+            padding-left: 411px;
+        }
+        
+        footer div p img#linkedin-web{
+            padding-left: 421px;
+        }
+
+        img#website-img{
+            height: 200px;
+            width: 220px;
+        }
+
+        p#title{
+            background-color: black;
+            color: white;
+            font-size: 1em;
+            text-align: center;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        .card {
+            text-align: center;
+            width: 220px; /* Adjust to fit your images */
+            background-color: black;
+            overflow: hidden;
+        }
+
+        table.transparent td{
+            border: 1px solid transparent;
+        }
+        table{
+            border: 1px solid transparent;;
+        }
+
+
+
+        .mobile-tablet{
+            display: none;
+        }
+        
+    }
+        
+
+    
+            /* MOBILE VIEWPORT */
+        @media only screen and (min-width: 375px) and (max-width: 767px) {
+            nav.desktop{
+                display: none;
+            }
+
+            footer.footer-about{
+                display: none;
+            }
+
+            /* HOME PAGE */
+            .Home{
+                background-image: url(https://rb.gy/lqfv2x);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+
+            body.mobile-bg{
+                background-color: burlywood;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, wheat,  tan, sandybrown, saddlebrown);
+                background-size: 300% 100%;
+                animation: moveGradient 5s infinite linear;
+            }
+            
+            .mobile-tablet a {
+                padding-top: 10px;
+                color: #000000;
+                text-align: center;
+                font-size: 1.5em;
+                text-decoration: none;
+                padding: 3%;
+                display: block;
+                font-family: 'Alfa Slab One',sans-serif;
+            }
+            
+            /* HAMBURGER MENU FOR MOBILE and TABLET*/
+            .mobile-tablet a.hamburger {
+                display: block;
+                text-align: left;
+                margin: 0;
+            }
+            div#menu-links p#text-menu{
+                text-align: center;
+                font-size: 1.5em;
+            }
+            div#menu-links img#line{
+                padding-left: 89px;
+            }
+            #menu-links {
+                transition: transform 0.3s ease, opacity 0.3s ease;
+                transform: translateY(-10px); /* Start slightly above */
+                opacity: 0; /* Start invisible */
+                display: none; /* Initially hidden */
+            }
+            
+            #menu-links.show {
+                display: block; /* Use a class to show the menu */
+                transform: translateY(0); /* Reset transform to visible position */
+                opacity: 1; /* Make it fully visible */
+            }
+            
+
+            div#menu-links a:hover{
+                animation: moveGradient 5s infinite linear;
+                background: linear-gradient(90deg, #000000, #b7c0c8, #a1c018, #dbfd00);
+                background-size: 200%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: background-position 1s ease;
+            }
+    
+            @keyframes moveGradient {
+                0% {
+                background-position: 0% 50%;
+                }
+                100% {
+                background-position: 100% 50%;
+                }
+            }
+
+
+            /* FOOTER STYLE FOR MOBILE */
+            footer.footer-home-mobile div p img#email,img#github,img#phone,img#facebook,img#instagram,img#linkedin{
+                width: 25px;
+                height: 20px;
+                padding-right: 5px;
+            }
+
+            nav.mobile-tablet div a img{
+                width: 30px;
+                height: 25px;
+                padding-right: 10px;
+            }
+
+            /* FOR TITLE RECOWEBDATION IN MOBILE */
+            .web{
+                font-size: 65px;
+            }
+            div.center p{
+                text-align: center;
+                font-size: 30px;
+            }
+
+            /* FOR TAGLINE IN MOBILE */
+            div.tagline-mobile p{
+                font-size: 4em;
+            }
+            div.under-tagline-mobile{
+                text-align: center;
+                font-size: 20px;
+            }
+
+            /* STYLE FOR FOOTER MOBILE */
+            footer.footer-home{
+                display: none;
+            }
+
+            footer.footer-home-mobile{
+                background: url("https://wallpaperaccess.com/full/1151572.jpg");
+                position: absolute;
+                left: 0;
+                margin-top: 0px;
+                width: 97.45vw;
+                padding: 0 9px 20px;
+            }
+
+            footer.footer-home-mobile h1#contact{
+                text-align: center;
+                font-weight: bold;
+            }
+
+            footer p{
+                font-size: 17px;
+            }
+    
+            footer div p img#facebook{
+                padding-left: 144px;
+            }
+
+            footer div p img#facebook,img#phone,img#instagram,img#linkedin{
+                padding-top: 20px;
+            }
+
+            footer div p img#email{
+                padding-left: 5px;
+            }
+            footer div p img#github{
+                padding-left: 50px;
+            }
+            footer div p img#phone{
+                padding-left: 5px;
+            }
+            footer div p img#instagram{
+                padding-left: 5px;
+            }
+            footer div p img#linkedin{
+                padding-left: 165px;
+            }
+            footer div p a{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+            footer div p a:hover{
+                animation: moveGradient 5s infinite linear;
+                background: linear-gradient(90deg, #000000, #b7c0c8, #a1c018, #dbfd00);
+                background-size: 200%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: background-position 1s ease;
+            }
+    
+            @keyframes moveGradient {
+                0% {
+                background-position: 0% 50%;
+                }
+                100% {
+                background-position: 100% 50%;
+                }
+            }
+    
+            footer div p#copyright{
+                text-align: center;
+                font-size: 13px;
+            }
+            footer.footer-home-mobile{
+            }
+
+
+            /* DESCRIPTION PAGE */
+            table {
+                width: 80%;
+                margin: 20px auto;
+                border-collapse: collapse;
+                border: 2px solid #3c2213;
+            }
+            th, td {
+                border: 2px solid #3c2213;
+                padding: 12px;
+                text-align: left;
+            }
+            th {
+                text-align: center;
+                background-color: #ccc;
+            }
+            td#web-title {
+                font-weight: bold;
+                text-align: center;
+                background-color: #f5f5dc;
+                text-decoration: none;
+            }
+            td#web-desc{
+                background-color: #ffffff;
+            }
+            td#web-title a {
+                color: #000000;
+            }
+            td#web-title a:hover{
+                animation: moveGradient 5s infinite linear;
+                background: linear-gradient(90deg, #000000, #b7c0c8, #a1c018, #dbfd00);
+                background-size: 300%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: background-position 1s ease;
+            }
+
+            /* ABOUT US PAGE */
+            div h1{
+                text-align: center;
+                font-size: 3em;
+            }
+            div p#head{
+                text-align: center;
+                font-size: 1.5em;
+                padding-top: 70px;
+                margin: 0;
+            }
+            div p#body{
+                text-align: center;
+                font-size: 1.3em;
+                padding-right: 10px;
+                margin: 0;
+                color: white;
+                font-weight: bold;
+            }
+
+            /* style for youtube */
+            .youtube-video{
+                display: none;
+            }
+            .youtube-video-mobile{
+                text-align: center;
+                font-size: 1.2em;
+            }
+            div.youtube-video-mobile p{
+                font-size: 1.2em;
+            }
+            div.youtube-video-mobile iframe{
+                border: 6px solid black;
+            }
+            div.youtube-video-mobile iframe:hover{
+                border: 6px solid red;
+                border-radius: 5%;
+            }
+
+            /* CONTACT US PAGE*/
+            .Contact{
+                background-image: url(https://wallpapercave.com/wp/wp6658497.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+                margin: 0 1px 0 1px;
+                padding: 0px;
+            }
+
+            div#space{
+                padding: 10px;
+            }
+    
+            /* Styling for required fields that are invalid */
+        input:invalid, textarea:invalid {
+            border-color: saddlebrown;
+            background-color: #ffe6e6;
+        }
+    
+            /* Styling for fields when they are valid */
+        input:valid, textarea:valid {
+            border-color: green;
+            background-color: #e6ffe6;
+        }
+        input#first-name{
+            width: 300px;
+            height: 20px;
+            
+        }
+        input#last-name{
+            width: 300px;
+            height: 20px;
+        }
+        input#email{
+            width: 300px;
+            height: 30px;
+        }
+    
+        /* Additional focus styles */
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: blue;
+            background-color: #f0f8ff;
+        }
+    
+            section#GIT {
+                display: flex;               /* Enable Flexbox */
+                flex-direction: column;      /* Align elements vertically */
+                justify-content: center;     /* Center vertically */
+                align-items: center;         /* Center horizontally */
+                text-align: center;
+                background-color: dimgrey;
+                border-radius: 10%;
+                max-width: 400px;
+                height: 30vh;                /* Adjust the height to fit the section properly */
+                margin: auto;                /* Center the section horizontally */
+                padding-top: 200px;
+                padding-bottom: 300px;
+            }
+            
+            label {
+                font-size: 1.2em;            /* Slightly larger label text */
+                color: white;                /* White color for readability */
+                margin-bottom: 5px;
+                display: block;
+            }
+
+            div#form h1{
+                font-size: 30px;
+            }
+            div#form h2{
+                font-size: 20px;
+            }
+            
+            /* Submit Button Styling */
+            button[type="submit"] {
+                background-color: #ffffff;   /* Green background */
+                color: saddlebrown;                /* White text */
+                padding: 12px 20px;          /* Padding around the text */
+                border: none;                /* Remove default border */
+                border-radius: 8px;          /* Rounded corners for modern look */
+                cursor: pointer;             /* Pointer cursor on hover */
+                font-size: 1.2em;            /* Increase font size */
+                width: 80%;                  /* Full-width button matching inputs */
+                margin-top: 15px;
+                max-width: 200px;
+            }
+
+            textarea#message{
+                width: 300px;
+                height: 150px;
+            }
+            textarea{
+                resize: none;
+                width: 600px;
+                height: 100px;
+            }
+            
+            
+            button[type="submit"]:hover {
+                background-color: burlywood;   /* Darker green on hover */
+            }
+    
+    
+            /* Add some extra spacing for the form section */
+            #form {
+                margin-top: 30px;
+            }
+    
+            div#form {
+                text-align: center;
+                font-size: 1em;
+                color: white;
+            }
+
+            /* WEBSITE PAGE */
+            table.transparent{
+                display: none;
+            }
+            footer div p img#facebook-web{
+                padding-left: 30px;
+            }
+    
+            footer div p img#email-web{
+                padding-left: 30px;
+            }
+            footer div p img#github-web{
+                padding-left: 250px;
+            }
+            footer div p img#phone-web{
+                padding-left: 400px;
+            }
+    
+            footer div p img#instagram-web{
+                padding-left: 411px;
+            }
+            
+            footer div p img#linkedin-web{
+                padding-left: 421px;
+            }
+    
+            img#website-img{
+                height: 185px;
+                width: 185px;
+            }
+    
+            p#title{
+                background-color: black;
+                color: white;
+                font-size: 1em;
+                text-align: center;
+            }
+    
+            table{
+                border-collapse: collapse;
+            }
+    
+            td {
+                padding: 10px;
+            }
+    
+            .card {
+                text-align: center;
+                width: 185px; /* Adjust to fit your images */
+                background-color: black;
+                overflow: hidden;
+            }
+    
+            table.transparent-mobile td{
+                border: 1px solid transparent;
+            }
+            table{
+                border: 1px solid transparent;;
+            }
+
+
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1200px) {
+
+            nav.desktop{
+                display: none;
+            }
+
+            footer.footer-home-mobile{
+                display: none;
+            }
+
+            /* HOME PAGE */
+            .Home{
+                background-image: url(https://rb.gy/lqfv2x);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+
+            body.mobile-bg{
+                background-color: burlywood;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, wheat,  tan, sandybrown, saddlebrown);
+                background-size: 300% 100%;
+                animation: moveGradient 5s infinite linear;
+            }
+            
+            .mobile-tablet a {
+                padding-top: 10px;
+                color: #000000;
+                text-align: center;
+                font-size: 2em;
+                text-decoration: none;
+                padding: 3%;
+                display: block;
+                font-family: 'Alfa Slab One',sans-serif;
+            }
+            
+            /* HAMBURGER MENU FOR MOBILE and TABLET*/
+            .mobile-tablet a.hamburger {
+                display: block;
+                text-align: left;
+                margin: 0;
+            }
+            div#menu-links p#text-menu{
+                text-align: center;
+                font-size: 3em;
+            }
+            div#menu-links img#line{
+                width: 350px;
+                padding-left: 225px;
+            }
+
+            div#menu-links a:hover{
+                animation: moveGradient 5s infinite linear;
+                background: linear-gradient(90deg, #000000, #b7c0c8, #a1c018, #dbfd00);
+                background-size: 200%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: background-position 1s ease;
+            }
+    
+            @keyframes moveGradient {
+                0% {
+                background-position: 0% 50%;
+                }
+                100% {
+                background-position: 100% 50%;
+                }
+            }
+
+
+            /* FOOTER STYLE FOR MOBILE */
+            footer.footer-home div p img#email,img#github,img#phone,img#facebook,img#instagram,img#linkedin{
+                width: 25px;
+                height: 20px;
+                padding-right: 5px;
+            }
+
+            nav.mobile-tablet div a img{
+                width: 40px;
+                height: 35px;
+                padding-right: 10px;
+            }
+
+            /* FOR TITLE RECOWEBDATION IN MOBILE */
+            .web{
+                font-size: 90px;
+            }
+            div.center p{
+                text-align: center;
+                font-size: 60px;
+            }
+
+            /* FOR TAGLINE IN MOBILE */
+            div.tagline-mobile p{
+                font-size: 6em;
+            }
+            div.under-tagline-mobile{
+                text-align: center;
+                font-size: 20px;
+            }
+
+            /* STYLE FOR FOOTER MOBILE */
+            footer.footer-home-mobile{
+                display: none;
+            }
+
+            footer.footer-home{
+                background: url("https://wallpaperaccess.com/full/1151572.jpg");
+                position: absolute;
+                left: 0;
+                margin-top: 0px;
+                width: 97.45vw;
+                padding: 0 9px 20px;
+            }
+
+            footer.footer-home h1#contact{
+                text-align: center;
+                font-weight: bold;
+            }
+
+            footer p{
+                font-size: 20px;
+            }
+    
+            footer div p img#facebook{
+                padding-left: 5px;
+            }
+
+            footer div p img#facebook,img#phone,img#instagram,img#linkedin{
+                padding-top: 20px;
+            }
+
+            footer div p img#email{
+                padding-left: 5px;
+            }
+            footer div p img#github{
+                padding-left: 80px;
+            }
+            footer div p img#phone{
+                padding-left: 150px;
+            }
+            footer div p img#instagram{
+                padding-left: 213px;
+            }
+            footer div p img#linkedin{
+                padding-left: 165px;
+            }
+            footer div p a{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+            footer div p a:hover{
+                animation: moveGradient 5s infinite linear;
+                background: linear-gradient(90deg, #000000, #b7c0c8, #a1c018, #dbfd00);
+                background-size: 200%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: background-position 1s ease;
+            }
+    
+            @keyframes moveGradient {
+                0% {
+                background-position: 0% 50%;
+                }
+                100% {
+                background-position: 100% 50%;
+                }
+            }
+    
+            footer div p#copyright{
+                text-align: center;
+                padding-top: 10px;
+                font-size: 20px;
+            }
+
+
+            /* DESCRIPTION PAGE */
+            h1#Desc-web{
+                text-align: center;
+                font-size: 3em;
+            }
+            table {
+                width: 95%;
+                margin: 20px auto;
+                border-collapse: collapse;
+                border: 2px solid #3c2213;
+            }
+            th, td {
+                border: 2px solid #3c2213;
+                padding: 12px;
+                text-align: left;
+            }
+            th {
+                text-align: center;
+                background-color: #ccc;
+            }
+            td#web-title {
+                font-weight: bold;
+                text-align: center;
+                background-color: #f5f5dc;
+                text-decoration: none;
+            }
+            td#web-desc{
+                background-color: #ffffff;
+            }
+            td#web-title a {
+                color: #000000;
+            }
+            td#web-title a:hover{
+                animation: moveGradient 5s infinite linear;
+                background: linear-gradient(90deg, #000000, #b7c0c8, #a1c018, #dbfd00);
+                background-size: 300%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: background-position 1s ease;
+            }
+
+            /* ABOUT US PAGE */
+            footer.footer-about{
+                background: url("https://wallpaperaccess.com/full/1151572.jpg");
+                position: absolute;
+                left: 0;
+                margin-top: 0px;
+                width: 99.45vw;
+                padding: 0 0px 20px;
+            }
+
+            footer.footer-about h1#contact {
+                text-align: center;
+                font-weight: bold;
+                font-size: 2em; /* Adjust font size for better readability */
+            }
+
+            footer.footer-about p {
+                font-size: 1.3em; /* Match font size with other footers */
+                margin: 10px 0; /* Space between paragraphs */
+                text-align: center; /* Center text */
+            }
+
+            /* Style for footer icons */
+            footer.footer-about div p img {
+                width: 25px; /* Consistent icon size */
+                height: 20px;
+                padding-right: 5px; /* Space between icons */
+            }
+
+            footer.footer-about div p a {
+                text-decoration: none; /* Remove underline */
+                color: rgb(0, 0, 0); /* Icon color to match footer */
+                font-weight: bold; /* Make links stand out */
+            }
+
+            footer.footer-about div p a:hover {
+                animation: moveGradient 5s infinite linear;
+                background: linear-gradient(90deg, #000000, #b7c0c8, #a1c018, #dbfd00);
+                background-size: 200%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: background-position 1s ease;
+            }
+
+            footer.footer-about div p#copyright {
+                text-align: center;
+                padding-top: 10px;
+                font-size: 20px;
+            }
+
+            /* Add keyframes for animation */
+            @keyframes moveGradient {
+                0% {
+                    background-position: 0% 50%;
+                }
+                100% {
+                    background-position: 100% 50%;
+                }
+            }
+
+            
+            div h1{
+                text-align: center;
+                font-size: 3em;
+            }
+            div p#head{
+                text-align: center;
+                font-size: 1.5em;
+                padding-top: 70px;
+                margin: 0;
+            }
+            div p#body{
+                text-align: center;
+                font-size: 1.3em;
+                padding-right: 10px;
+                margin: 0;
+                color: white;
+                font-weight: bold;
+            }
+
+            /* style for youtube */
+            .youtube-video{
+                display: none;
+            }
+            .youtube-video-mobile{
+                text-align: center;
+                font-size: 1.2em;
+            }
+            div.youtube-video-mobile p{
+                font-size: 1.2em;
+            }
+            div.youtube-video-mobile iframe{
+                width: 600px;
+                height: 500px;
+                border: 6px solid black;
+            }
+            div.youtube-video-mobile iframe:hover{
+                border: 6px solid red;
+                border-radius: 5%;
+            }
+
+            /* CONTACT US PAGE*/
+            .Contact{
+                background-image: url(https://wallpapercave.com/wp/wp6658497.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+                margin: 0 1px 0 1px;
+                padding: 0px;
+            }
+
+            div#space{
+                padding: 10px;
+            }
+    
+            /* Styling for required fields that are invalid */
+        input:invalid, textarea:invalid {
+            border-color: saddlebrown;
+            background-color: #ffe6e6;
+        }
+    
+            /* Styling for fields when they are valid */
+        input:valid, textarea:valid {
+            border-color: green;
+            background-color: #e6ffe6;
+        }
+        input#first-name{
+            width: 400px;
+            height: 30px;
+            
+        }
+        input#last-name{
+            width: 400px;
+            height: 30px;
+        }
+        input#email{
+            width: 400px;
+            height: 30px;
+        }
+    
+        /* Additional focus styles */
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: blue;
+            background-color: #f0f8ff;
+        }
+    
+            section#GIT {
+                display: flex;               /* Enable Flexbox */
+                flex-direction: column;      /* Align elements vertically */
+                justify-content: center;     /* Center vertically */
+                align-items: center;         /* Center horizontally */
+                text-align: center;
+                background-color: dimgrey;
+                border-radius: 10%;
+                max-width: 700px;
+                height: 20vh;                /* Adjust the height to fit the section properly */
+                margin: auto;                /* Center the section horizontally */
+                padding-top: 200px;
+                padding-bottom: 300px;
+            }
+            
+            label {
+                font-size: 1.2em;            /* Slightly larger label text */
+                color: white;                /* White color for readability */
+                margin-bottom: 5px;
+                display: block;
+            }
+
+            div#form h1{
+                font-size: 40px;
+            }
+            div#form h2{
+                font-size: 25px;
+            }
+            
+            /* Submit Button Styling */
+            button[type="submit"] {
+                background-color: #ffffff;   /* Green background */
+                color: saddlebrown;                /* White text */
+                padding: 12px 20px;          /* Padding around the text */
+                border: none;                /* Remove default border */
+                border-radius: 8px;          /* Rounded corners for modern look */
+                cursor: pointer;             /* Pointer cursor on hover */
+                font-size: 1.2em;            /* Increase font size */
+                width: 80%;                  /* Full-width button matching inputs */
+                margin-top: 15px;
+                max-width: 200px;
+            }
+
+            textarea#message{
+                width: 400px;
+                height: 160px;
+            }
+            textarea{
+                resize: none;
+                width: 600px;
+                height: 100px;
+            }
+            
+            
+            button[type="submit"]:hover {
+                background-color: burlywood;   /* Darker green on hover */
+            }
+    
+    
+            /* Add some extra spacing for the form section */
+            #form {
+                margin-top: 30px;
+            }
+    
+            div#form {
+                text-align: center;
+                font-size: 1em;
+                color: white;
+            }
+
+            /* WEBSITE PAGE */
+            table.transparent{
+                display: none;
+            }
+            footer div p img#facebook-web{
+                padding-left: 30px;
+            }
+    
+            footer div p img#email-web{
+                padding-left: 30px;
+            }
+            footer div p img#github-web{
+                padding-left: 250px;
+            }
+            footer div p img#phone-web{
+                padding-left: 400px;
+            }
+    
+            footer div p img#instagram-web{
+                padding-left: 411px;
+            }
+            
+            footer div p img#linkedin-web{
+                padding-left: 421px;
+            }
+    
+            img#website-img{
+                height: 170px;
+                width: 355px;
+            }
+    
+            p#title{
+                background-color: black;
+                color: white;
+                font-size: 1em;
+                text-align: center;
+            }
+    
+            table{
+                border-collapse: collapse;
+            }
+    
+            td {
+                padding: 10px;
+            }
+    
+            .card {
+                text-align: center;
+                width: 355px; /* Adjust to fit your images */
+                background-color: black;
+                overflow: hidden;
+            }
+    
+            table.transparent-mobile td{
+                border: 1px solid transparent;
+            }
+            table{
+                border: 1px solid transparent;;
+            }
+        
+    }
+        
