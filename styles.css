@@ -1436,7 +1436,6 @@
     
             .card {
                 text-align: center;
-                width: 355px; /* Adjust to fit your images */
                 background-color: black;
                 overflow: hidden;
             }
@@ -1451,79 +1450,72 @@
     }
 
     @media print {
-        /* General Styles */
         body {
-            background: none; /* Remove background images and colors */
-            color: black; /* Set text color to black */
-            font-size: 12pt; /* Adjust font size for better readability */
-            margin: 0; /* Remove default body margin */
-            padding: 0; /* Remove default body padding */
+            background: none; 
+            color: black; 
+            font-size: 12pt; 
+            margin: 0;
+            padding: 0; 
         }
     
-        /* Hide elements that are not needed in print */
         nav.desktop, footer, .youtube-video, button, img {
-            display: none; /* Hide nav, footer, buttons, and all images */
+            display: none; 
         }
     
-        /* Optional: Show specific images like logos if required */
         img.logo {
-            display: block; /* Show logo if it has this class */
-            width: 100px; /* Set width for logo */
-            margin: 0 auto; /* Center the logo */
+            display: block; 
+            width: 100px; 
+            margin: 0 auto; 
         }
     
         /* Headings */
         h1, h2, h3, h4, h5, h6 {
-            page-break-after: avoid; /* Avoid page breaks after headings */
-            color: black; /* Ensure headings are printed in black */
+            page-break-after: avoid; 
+            color: black; 
         }
     
-        /* Paragraphs */
         p {
-            page-break-inside: avoid; /* Prevent page breaks inside paragraphs */
-            margin: 0; /* Remove default margin */
+            page-break-inside: avoid; 
+            margin: 0; 
         }
     
-        /* Table Styles */
         table {
-            border-collapse: collapse; /* Ensure tables are neat */
-            width: 100%; /* Make tables full width */
-            margin: 20px 0; /* Add spacing around tables */
+            border-collapse: collapse; 
+            width: 100%; 
+            margin: 20px 0;
         }
     
         th, td {
-            border: 1px solid #000; /* Solid border for visibility */
-            padding: 8px; /* Padding for cells */
-            text-align: left; /* Left align text */
+            border: 1px solid #000; 
+            padding: 8px; 
+            text-align: left;
         }
     
         th {
-            background-color: #f2f2f2; /* Light grey background for header */
+            background-color: #f2f2f2; 
         }
     
-        /* Center Content */
         .center {
-            text-align: center; /* Center text for print */
+            text-align: center; 
         }
     
-        /* Adjust Font Size for Specific Elements */
         .web {
-            font-size: 2em; /* Smaller font size for print */
+            font-size: 2em; 
         }
     
-        /* Remove Specific Classes */
+       
         .mobile-tablet, .youtube-video-mobile {
-            display: none; /* Hide mobile/tablet specific elements */
+            display: none;
         }
     
-        /* Ensure page breaks occur where needed */
+        
         .page-break {
-            page-break-after: always; /* Force page breaks where needed */
+            page-break-after: always; 
         }
     
-        /* Additional Adjustments for Print */
+        
         input, textarea {
-            display: none; /* Hide input fields in print */
+            display: none; 
         }
         .transparent-mobile{
             display: none;
