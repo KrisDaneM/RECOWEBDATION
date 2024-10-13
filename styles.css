@@ -1449,4 +1449,86 @@
             }
         
     }
+
+    @media print {
+        /* General Styles */
+        body {
+            background: none; /* Remove background images and colors */
+            color: black; /* Set text color to black */
+            font-size: 12pt; /* Adjust font size for better readability */
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+        }
+    
+        /* Hide elements that are not needed in print */
+        nav.desktop, footer, .youtube-video, button, img {
+            display: none; /* Hide nav, footer, buttons, and all images */
+        }
+    
+        /* Optional: Show specific images like logos if required */
+        img.logo {
+            display: block; /* Show logo if it has this class */
+            width: 100px; /* Set width for logo */
+            margin: 0 auto; /* Center the logo */
+        }
+    
+        /* Headings */
+        h1, h2, h3, h4, h5, h6 {
+            page-break-after: avoid; /* Avoid page breaks after headings */
+            color: black; /* Ensure headings are printed in black */
+        }
+    
+        /* Paragraphs */
+        p {
+            page-break-inside: avoid; /* Prevent page breaks inside paragraphs */
+            margin: 0; /* Remove default margin */
+        }
+    
+        /* Table Styles */
+        table {
+            border-collapse: collapse; /* Ensure tables are neat */
+            width: 100%; /* Make tables full width */
+            margin: 20px 0; /* Add spacing around tables */
+        }
+    
+        th, td {
+            border: 1px solid #000; /* Solid border for visibility */
+            padding: 8px; /* Padding for cells */
+            text-align: left; /* Left align text */
+        }
+    
+        th {
+            background-color: #f2f2f2; /* Light grey background for header */
+        }
+    
+        /* Center Content */
+        .center {
+            text-align: center; /* Center text for print */
+        }
+    
+        /* Adjust Font Size for Specific Elements */
+        .web {
+            font-size: 2em; /* Smaller font size for print */
+        }
+    
+        /* Remove Specific Classes */
+        .mobile-tablet, .youtube-video-mobile {
+            display: none; /* Hide mobile/tablet specific elements */
+        }
+    
+        /* Ensure page breaks occur where needed */
+        .page-break {
+            page-break-after: always; /* Force page breaks where needed */
+        }
+    
+        /* Additional Adjustments for Print */
+        input, textarea {
+            display: none; /* Hide input fields in print */
+        }
+        .transparent-mobile{
+            display: none;
+        }
+        
+    }
+    
         
