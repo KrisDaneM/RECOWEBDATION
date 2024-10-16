@@ -20,3 +20,30 @@ function hamburger() {
 }
 
 
+// FOR SUBMIT FORM
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault(); // Prevent default form submission behavior
+
+    const form = e.target;
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+    }).then(response => {
+        if (response.ok) {
+            document.getElementById('success').style.display = 'block';
+            document.getElementById('error').style.display = 'none';
+            form.reset(); // Reset form after successful submission
+        } else {
+            document.getElementById('error').style.display = 'block';
+            document.getElementById('success').style.display = 'none';
+        }
+    }).catch(error => {
+        document.getElementById('error').style.display = 'block';
+        document.getElementById('success').style.display = 'none';
+    });
+});
